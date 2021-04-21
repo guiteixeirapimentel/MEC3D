@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{71C1D399-4882-4AA6-9093-977BF1F09360}</ProjectGuid>
+    <RootNamespace>MEC3D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <OpenMPSupport>true</OpenMPSupport>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera3D.h" />
+    <ClInclude Include="CaseFileReader.h" />
+    <ClInclude Include="ColorByValue.h" />
+    <ClInclude Include="ColorShader.h" />
+    <ClInclude Include="DataPoint.h" />
+    <ClInclude Include="DirectX11.h" />
+    <ClInclude Include="DynamicGraphModel.h" />
+    <ClInclude Include="ElementoCte.hpp" />
+    <ClInclude Include="ElementoLinear.hpp" />
+    <ClInclude Include="FundSolPComp.h" />
+    <ClInclude Include="FundSolPMindlin.h" />
+    <ClInclude Include="FundSolPStar.h" />
+    <ClInclude Include="FundSolUComp.h" />
+    <ClInclude Include="FundSolUMindlin.h" />
+    <ClInclude Include="FundSolUStar.h" />
+    <ClInclude Include="GeometryCreator.h" />
+    <ClInclude Include="GradientColorPalette.hpp" />
+    <ClInclude Include="Graph3DTimeWindow.h" />
+    <ClInclude Include="Graph3DTimeWindowD.h" />
+    <ClInclude Include="Graph3DWindow.h" />
+    <ClInclude Include="GraphModel.h" />
+    <ClInclude Include="GraphWindow.h" />
+    <ClInclude Include="HammerConstantTriangleIntegration.h" />
+    <ClInclude Include="HammerLinearDescTriangleIntegration.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="LineListMeshModel.h" />
+    <ClInclude Include="MalhaTriangular.h" />
+    <ClInclude Include="MalhaTriangularLinearDescontinua.h" />
+    <ClInclude Include="MathUtils.h" />
+    <ClInclude Include="Matriz.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Points3DAnimationWindow.h" />
+    <ClInclude Include="Ponto.h" />
+    <ClInclude Include="PStarFunNoSing.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Simple2DWindow.h" />
+    <ClInclude Include="SingularIntegrationConstantTriangle.h" />
+    <ClInclude Include="SingularIntegrationLinearDescTriangle.h" />
+    <ClInclude Include="Steady2DVisualiseWnd.h" />
+    <ClInclude Include="Tesselation.hpp" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TriangleListMeshModel.h" />
+    <ClInclude Include="TriangularMeshWindow.h" />
+    <ClInclude Include="UStarFunNoSing.h" />
+    <ClInclude Include="Vetor.h" />
+    <ClInclude Include="Triangulo.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera3D.cpp" />
+    <ClCompile Include="CaseFileReader.cpp" />
+    <ClCompile Include="ColorShader.cpp" />
+    <ClCompile Include="DataPoint.cpp" />
+    <ClCompile Include="DirectX11.cpp" />
+    <ClCompile Include="DynamicGraphModel.cpp" />
+    <ClInclude Include="ElementoCteMindlin.hpp" />
+    <ClCompile Include="GeometryCreator.cpp" />
+    <ClCompile Include="Graph3DTimeWindow.cpp" />
+    <ClCompile Include="Graph3DTimeWindowD.cpp" />
+    <ClCompile Include="Graph3DWindow.cpp" />
+    <ClCompile Include="GraphModel.cpp" />
+    <ClCompile Include="GraphWindow.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="LineListMeshModel.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MathUtils.cpp" />
+    <ClCompile Include="Matriz.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Points3DAnimationWindow.cpp" />
+    <ClCompile Include="Ponto.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Simple2DWindow.cpp" />
+    <ClCompile Include="Steady2DVisualiseWnd.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TriangleListMeshModel.cpp" />
+    <ClCompile Include="TriangularMeshWindow.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\3D Data Visualizer\3DDataVisualiser\Color.gs" />
+    <None Include="..\..\3D Data Visualizer\3DDataVisualiser\Color.ps" />
+    <None Include="..\..\3D Data Visualizer\3DDataVisualiser\Color.vs" />
+    <None Include="cavidadeMindlin.json" />
+    <None Include="Color.gs" />
+    <None Include="Color.ps" />
+    <None Include="Color.vs" />
+    <None Include="mindlinSimples.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resultado.txt" />
+    <Text Include="shader-error.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

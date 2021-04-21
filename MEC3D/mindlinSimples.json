@@ -1,0 +1,24 @@
+{
+  "E": 44.42e3,
+  "v": 0.3,
+  "partes": [
+    {
+      "condContorno": {
+        "X1": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X2": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X3": {
+          "tipo": "forca",
+          "valor": 0.0956e3
+        }
+      },
+      "arqStl": "stl/mindlinSoloCarregado.stl",
+      "label": ""
+    }
+  ]
+}

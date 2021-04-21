@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GFX">
+      <UniqueIdentifier>{694fde71-c938-46e7-937d-cddbdb17e92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{37b4336f-de7b-4859-a0dc-1e38b2ca03c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GFX">
+      <UniqueIdentifier>{72395ca7-5afc-4de6-b2fd-2fe0f1faa7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{42bf998c-5b17-422e-9fe6-ed1302335c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GFX\Window">
+      <UniqueIdentifier>{6c20771a-e57d-4d0d-8d2e-69a1840be945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GFX\Windows">
+      <UniqueIdentifier>{36ccf356-990f-41e6-93bd-1bb90867ad5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Elementos Contorno">
+      <UniqueIdentifier>{6f5bd4db-110d-4073-8269-0f994e4477f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Elementos Contorno\Mesh related">
+      <UniqueIdentifier>{419cde40-9dea-4696-8187-64c1a0c0ea06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Elementos Contorno\Elemento Cte">
+      <UniqueIdentifier>{e42d0b98-9d12-49fb-9845-33a19e847b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Elementos Contorno\Elemento linear">
+      <UniqueIdentifier>{3f1c0ffd-a9fc-4033-836b-5af5b91129bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Elementos Contorno">
+      <UniqueIdentifier>{17c400e4-2f28-4b3f-9802-dd9096e9b86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Elementos Contorno\Mesh related">
+      <UniqueIdentifier>{ff7d0a48-e789-47be-ad87-78e4990d77b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vetor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matriz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingularIntegrationConstantTriangle.h">
+      <Filter>Header Files\Elementos Contorno\Elemento Cte</Filter>
+    </ClInclude>
+    <ClInclude Include="HammerConstantTriangleIntegration.h">
+      <Filter>Header Files\Elementos Contorno\Elemento Cte</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="Tesselation.hpp">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="Ponto.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="MalhaTriangularLinearDescontinua.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="MalhaTriangular.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="HammerLinearDescTriangleIntegration.h">
+      <Filter>Header Files\Elementos Contorno\Elemento linear</Filter>
+    </ClInclude>
+    <ClInclude Include="SingularIntegrationLinearDescTriangle.h">
+      <Filter>Header Files\Elementos Contorno\Elemento linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorByValue.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShader.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPoint.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicGraphModel.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientColorPalette.hpp">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphModel.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphWindow.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph3DTimeWindow.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph3DTimeWindowD.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph3DWindow.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Points3DAnimationWindow.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Simple2DWindow.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Steady2DVisualiseWnd.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangularMeshWindow.h">
+      <Filter>Header Files\GFX\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleListMeshModel.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="LineListMeshModel.h">
+      <Filter>Header Files\GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryCreator.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="FundSolPStar.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="FundSolUStar.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="PStarFunNoSing.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="UStarFunNoSing.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementoCte.hpp">
+      <Filter>Source Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementoLinear.hpp">
+      <Filter>Source Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="CaseFileReader.h">
+      <Filter>Header Files\Elementos Contorno\Mesh related</Filter>
+    </ClInclude>
+    <ClInclude Include="FundSolUComp.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="FundSolPComp.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="FundSolUMindlin.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="FundSolPMindlin.h">
+      <Filter>Header Files\Elementos Contorno</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementoCteMindlin.hpp">
+      <Filter>Source Files\Elementos Contorno</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matriz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShader.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPoint.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicGraphModel.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphModel.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphWindow.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph3DTimeWindow.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph3DTimeWindowD.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph3DWindow.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Points3DAnimationWindow.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Steady2DVisualiseWnd.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple2DWindow.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangularMeshWindow.cpp">
+      <Filter>Source Files\GFX\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleListMeshModel.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="LineListMeshModel.cpp">
+      <Filter>Source Files\GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryCreator.cpp">
+      <Filter>Source Files\Elementos Contorno\Mesh related</Filter>
+    </ClCompile>
+    <ClCompile Include="Ponto.cpp">
+      <Filter>Source Files\Elementos Contorno</Filter>
+    </ClCompile>
+    <ClCompile Include="CaseFileReader.cpp">
+      <Filter>Source Files\Elementos Contorno\Mesh related</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\3D Data Visualizer\3DDataVisualiser\Color.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3D Data Visualizer\3DDataVisualiser\Color.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3D Data Visualizer\3DDataVisualiser\Color.gs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Color.gs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Color.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Color.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mindlinSimples.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cavidadeMindlin.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shader-error.txt" />
+    <Text Include="Resultado.txt" />
+  </ItemGroup>
+</Project>

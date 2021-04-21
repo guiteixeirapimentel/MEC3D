@@ -1,0 +1,58 @@
+{
+	"E": 1.0,
+	"v": 0.25,
+  "partes": [
+    {
+      "condContorno": {
+        "X1": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X2": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X3": {
+          "tipo": "forca",
+          "valor": 0.0
+        }
+      },
+      "arqStl": "stl/axialSimplesresto.stl",
+      "label": ""
+    },
+    {
+      "condContorno": {
+        "X1": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X2": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X3": {
+          "tipo": "forca",
+          "valor": -1.0
+        }
+      },
+      "arqStl": "stl/axialSimplesengaste.stl"
+    },
+    {
+      "condContorno": {
+        "X1": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X2": {
+          "tipo": "forca",
+          "valor": 0.0
+        },
+        "X3": {
+          "tipo": "forca",
+          "valor": 1.0
+        }
+      },
+      "arqStl": "stl/axialSimplestopo.stl"
+    }
+  ]
+}
