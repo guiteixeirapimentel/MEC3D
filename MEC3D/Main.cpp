@@ -1033,9 +1033,9 @@ int main()
 
 	//cfr.GetCase("mindlinSimples.json", E, v, pontos, elementos, forcsPrescs, deslPrescs);
 
-    MalhaTriangular malhaQ(pontos, elementos, forcsPrescs, deslPrescs);
+    //MalhaTriangular malhaQ(pontos, elementos, forcsPrescs, deslPrescs);
 
-    //MalhaTriangularLinearDescontinua malhaQ(pontos, elementos, forcsPrescs, deslPrescs);
+    MalhaTriangularLinearDescontinua malhaQ(pontos, elementos, forcsPrescs, deslPrescs);
 
     //MalhaTriangular malhaQ(quads, forcsQuads, deslQuads);
 
@@ -1053,32 +1053,32 @@ int main()
     }
 
 
-    //ElementoLinear(malhaQ, E, v);
+	ElementoLinear(malhaQ, E, v);
     //Resultado res = ElementoCteMindlin(malhaQ, E, v, 0.0);
-	Resultado res = ElementoCte(malhaQ, E, v);
+	//Resultado res = ElementoCte(malhaQ, E, v);
     	
-	TriangularMeshWindow dispWndQ(800, 600, L"Visualizar malha x3", malhaQ.GetMeshAsDataPointsPainted(res.compX3));
-	TriangularMeshWindow dispWndQ1(800, 600, L"Visualizar malha x2", malhaQ.GetMeshAsDataPointsPainted(res.compX2));
-	TriangularMeshWindow dispWndQ2(800, 600, L"Visualizar malha x1", malhaQ.GetMeshAsDataPointsPainted(res.compX1));
+	//TriangularMeshWindow dispWndQ(800, 600, L"Visualizar malha x3", malhaQ.GetMeshAsDataPointsPainted(res.compX3));
+	//TriangularMeshWindow dispWndQ1(800, 600, L"Visualizar malha x2", malhaQ.GetMeshAsDataPointsPainted(res.compX2));
+	//TriangularMeshWindow dispWndQ2(800, 600, L"Visualizar malha x1", malhaQ.GetMeshAsDataPointsPainted(res.compX1));
 
 
-    //TriangularMeshWindow dispWnd(800, 600, L"Visualizar malha", malha.GetMeshAsDataPoints());
+ //   //TriangularMeshWindow dispWnd(800, 600, L"Visualizar malha", malha.GetMeshAsDataPoints());
 
-	MSG msg = { 0 };
+	//MSG msg = { 0 };
 
-	while (Window::PegarNumJanelas() > 0)
-	{
-		while (PeekMessage(&msg, 0, 0, 0, PM_REMOVE))
-		{
-			TranslateMessage(&msg);
-			DispatchMessage(&msg);
-		}
+	//while (Window::PegarNumJanelas() > 0)
+	//{
+	//	while (PeekMessage(&msg, 0, 0, 0, PM_REMOVE))
+	//	{
+	//		TranslateMessage(&msg);
+	//		DispatchMessage(&msg);
+	//	}
 
-		//dispWnd.Tick();
-        dispWndQ.Tick();
-		dispWndQ1.Tick();
-		dispWndQ2.Tick();
-	}
+	//	//dispWnd.Tick();
+ //       dispWndQ.Tick();
+	//	dispWndQ1.Tick();
+	//	dispWndQ2.Tick();
+	//}
 
     return 0;
 }

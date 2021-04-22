@@ -11,6 +11,21 @@ public:
 	class Vetor operator+(const Vetor& rhs) const;
 
 	operator Vetor() const;
+
+	double operator [](int i) const
+	{
+		switch (i) {
+		case 0:
+			return cX1;
+			break;
+		case 1:
+			return cX2;
+			break;
+		default:
+			return cX3;
+			break;
+		}
+	}
 	   
 public:
 	double cX1;

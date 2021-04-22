@@ -958,8 +958,7 @@ int ElementoLinear(const MalhaTriangularLinearDescontinua& malha, const double E
             {
                 for (int I = 1; I <= 3; I++)
                     for (int J = 1; J <= 3; J++)
-                    {                     
-
+                    {
                         const double raio = (malha.cElementos[j/3].triangulo.cCM - malha.cElementos[i/3].triangulo.cCM).Mod();
 
                         if (raio / malha.cElementos[j/3].triangulo.cLadoMedio < 4.0)
@@ -1020,10 +1019,10 @@ int ElementoLinear(const MalhaTriangularLinearDescontinua& malha, const double E
                             malha.cPontosInternos[i/3].p123[i % 3],
                             solFundPNoSingPStar, I, J, indiceksi, 1e-0)*/;
 
-                        GUStar(ii + I - 1, jj + J - 1) = 0.0/*singIntegration.IntegrateUStar(
-                            malha.cElementos[j / 3].triangulo,
-                            malha.cPontosInternos[i / 3].p123[i % 3],
-                            solFundUNoSingUStar, I, J, indiceksi, 1e-0)*/;
+						GUStar(ii + I - 1, jj + J - 1) = singIntegration.IntegrateUStar(
+							malha.cElementos[j / 3].triangulo,
+							malha.cPontosInternos[i / 3].p123[i % 3],
+							solFundUNoSingUStar, I, J, indiceksi, 1e-0);
 
                     }
             }
